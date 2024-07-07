@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 35,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Karen Friar",
+            "title": "Stock market today: The S&P 500 holds near record as jobs data lands - Yahoo Finance",
+            "description": "Investors are looking to the June jobs report for signs of more softening in the labor market that could lay the ground for rate cuts.",
+            "url": "https://finance.yahoo.com/news/live/stock-market-today-the-sp-500-holds-above-record-as-jobs-data-lands-133030082.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/nP1ensU4UfGzgRuZkJBG6w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-07/9adaa440-3903-11ef-acd5-b6ecd1b15a22",
+            "publishedAt": "2024-07-05T16:38:10Z",
+            "content": "US stocks held near all-time highs on Friday as investors weighed the June jobs report, which will play into Federal Reserve rate cut calculations.\r\nThe S&amp;P 500 (^GSPC) slipped just below the fla… [+8842 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Deadline"
+            },
+            "author": "Anthony D'Alessandro",
+            "title": "‘Despicable Me 4’ Sees $20.4M, 2nd Best July 4th Take For Franchise; $120M 5-Day Still Possible; ‘Inside Out 2’ Crosses Half Billion – Box Office Update - Deadline",
+            "description": "'Despicable Me 4' Opening to $120M over July 4th period at domestic box office.",
+            "url": "http://deadline.com/2024/07/box-office-despicable-me-4-1236001250/",
+            "urlToImage": "https://deadline.com/wp-content/uploads/2024/07/DESPICABLE-ME-4-5.jpg?w=1024",
+            "publishedAt": "2024-07-05T15:46:00Z",
+            "content": "FRIDAY AM: Illumination/Universal’s Despicable Me 4did $20.4M on July 4th, which is +28% over what Minions: Rise of Gru did on its July 4th back in 2022, which was $16M. It’s also +61% over Despicabl… [+6922 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters",
+            "title": "Italy's Etna and Stromboli volcanoes erupt, Catania Airport closed - Reuters",
+            "description": null,
+            "url": "https://www.reuters.com/world/europe/italys-etna-stromboli-volcanoes-erupt-catania-airport-closed-2024-07-05/",
+            "urlToImage": null,
+            "publishedAt": "2024-07-05T15:29:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters",
+            "title": "Struggling Biden faces test with ABC interview, vows to fight on - Reuters",
+            "description": null,
+            "url": "https://www.reuters.com/world/us/struggling-biden-faces-big-test-with-abc-interview-vows-fight-2024-07-05/",
+            "urlToImage": null,
+            "publishedAt": "2024-07-05T15:16:05Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Rachel Reeves: Who is the UK's new chancellor? - BBC.com",
+            "description": "In her maiden speech in the Commons in 2010, she vowed to fight for \"jobs, growth and prosperity\".",
+            "url": "https://www.bbc.com/news/articles/cw4ywl7w820o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/19f1/live/b3bb2520-3ab6-11ef-b2fb-b1658f4bc7c2.jpg",
+            "publishedAt": "2024-07-05T14:42:26Z",
+            "content": "By Lora Jones, Business reporter, BBC News\r\n\"Serious\" and \"determined\" are words often used to describe Rachel Reeves, the former Bank of England economist who has become the UK's first female chance… [+6805 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": ", USA TODAY",
+            "title": "Ozempic and Wegovy linked to optic nerve stroke, possible blindness - USA TODAY",
+            "description": "A study found semaglutide users are likelier experience a stroke of the optic nerve that causes blindness.",
+            "url": "https://www.usatoday.com/story/news/health/2024/07/03/ozempic-wegovy-optic-nerve-stroke-blindness/74278241007/",
+            "urlToImage": "https://www.gannett-cdn.com/authoring/authoring-images/2024/07/03/USAT/74287585007-usatsi-21519642.jpg?auto=webp&crop=3599,2025,x0,y187&format=pjpg&width=1200",
+            "publishedAt": "2024-07-05T14:35:54Z",
+            "content": "Patients who took the frequently prescribed diabetes and weight-loss drugs Ozempic and Wegovy faced a greater risk of a stroke of the optic nerve, which can lead to blindness, according to a new stud… [+4957 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "BRIAN MELLEY, JILL LAWLESS",
+            "title": "UK elections: Starmer will be next prime minister, Sunak resigns - The Associated Press",
+            "description": "British Prime Minister Keir Starmer says he will lead a “government of service” on a mission of national renewal in his first official remarks after his Labour Party swept to power in a landslide victory after more than a decade in opposition. Starmer led his…",
+            "url": "https://apnews.com/article/uk-elections-2024-result-labour-starmer-exit-sunak-e94f379ea893ec17711fd82cec03b603",
+            "urlToImage": "https://dims.apnews.com/dims4/default/222b284/2147483647/strip/true/crop/3448x1940+0+234/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F55%2Fb2%2F4aca760376d40642180574832162%2Ff2786f1e34ec45498d9832f00e09b755",
+            "publishedAt": "2024-07-05T14:32:00Z",
+            "content": "LONDON (AP) British Prime Minister Keir Starmer said he would lead a government of service on a mission of national renewal in his first official remarks Friday after his Labour Party swept to power … [+7425 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": null,
+            "title": "Epic Games calls out Apple for rejecting its Games Store in the EU - TechCrunch",
+            "description": null,
+            "url": "https://techcrunch.com/2024/07/05/epic-games-calls-out-apple-for-rejecting-its-games-store-in-the-eu/",
+            "urlToImage": null,
+            "publishedAt": "2024-07-05T14:28:14Z",
+            "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Edward-Isaac Dovere",
+            "title": "Democrats start moving to Harris as Biden digs in - CNN",
+            "description": "Amid the ongoing fallout from Joe Biden’s debate performance, talk in many top Democratic circles has already moved to who Kamala Harris’s running mate would be.",
+            "url": "https://www.cnn.com/2024/07/05/politics/kamala-harris-democrats-biden/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2159750891.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-07-05T13:58:00Z",
+            "content": "Amid the ongoing fallout from Joe Bidens debate performance, talk in many top Democratic circles has already moved to who Kamala Harris running mate would be.\r\nThats how certain a widening group of l… [+12888 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Page Six"
+            },
+            "author": "Caroline Blair",
+            "title": "Paige DeSorbo predicted Lindsay Hubbard's pregnancy less than a year ago - Page Six",
+            "description": "The “Summer House” star stunned her Instagram followers Thursday when she announced that she and her mystery boyfriend are expecting their first child.",
+            "url": "https://pagesix.com/2024/07/05/parents/paige-desorbo-predicted-lindsay-hubbards-pregnancy/",
+            "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2024/07/84973309.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-07-05T13:53:00Z",
+            "content": "She’s a podcaster and a psychic.\r\nShortly after Lindsay Hubbard announced her pregnancy, fans recalled Paige DeSorbo predicting less than a year ago that her “Summer House” co-star would have a baby.… [+4024 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "KCRA Sacramento"
+            },
+            "author": "Jonathan Ayestas",
+            "title": "Northern California heat wave and forecast: What to know about fire danger, how to cool off - KCRA Sacramento",
+            "description": "Triple-digit temperatures are not going anywhere soon for Northern California as a heat wave continues to challenge a region already vulnerable to wildfires.",
+            "url": "https://www.kcra.com/article/northern-california-forecast-heat-wave-july-5-2024/61517175",
+            "urlToImage": "https://kubrick.htvapps.com/vidthumb/f956d1f9-8fb1-48ee-8cdd-3be4c1bdca63/5153a4e8-2cf3-4a03-bb79-f208cdf255ca.jpg?crop=1xw:1.0xh;center,top&resize=1200:*",
+            "publishedAt": "2024-07-05T13:27:00Z",
+            "content": "Triple-digit temperatures are not going anywhere soon for Northern California as a heat wave continues to challenge a region already vulnerable to wildfires.\r\nKCRA 3 is calling Friday an Alert Day be… [+2607 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Dinah Voyles Pulver, Taylor Ardrey",
+            "title": "Shark attacks swimmers in South Padre Island, Texas leaving 2 hurt - USA TODAY",
+            "description": "A shark attack on South Padre Island, Texas, leaves two swimmers injured. Authorities say that two others encountered the shark.",
+            "url": "https://www.usatoday.com/story/news/nation/2024/07/05/shark-attack-south-padre-island-texas/74305377007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/07/05/USAT/74307345007-1238426202.jpg?crop=4255,2394,x0,y0&width=3200&height=1801&format=pjpg&auto=webp",
+            "publishedAt": "2024-07-05T13:12:41Z",
+            "content": "A Fourth of July at the beach went awry due to a shark attack on South Padre Island, a popular tourist destination on the Southeast Texas Coast. Two people were bitten by a shark, and beachgoers were… [+5019 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Joanna Nelius",
+            "title": "We tested over a dozen laptops to see how Snapdragon compares to Intel, AMD, and Apple’s chips - The Verge",
+            "description": "We tested every chip against the Intel Core Ultra, AMD Ryzen 8000, and Apple M3 in over a dozen laptops from Acer, Apple, Dell, Lenovo, Microsoft, and Samsung.",
+            "url": "https://www.theverge.com/24191671/copilot-plus-pcs-laptops-qualcomm-intel-amd-apple",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/E5Ial285bjCAQxP319fZ-S8lB1U=/0x0:6000x4000/1200x628/filters:focal(3000x2000:3001x2001)/cdn.vox-cdn.com/uploads/chorus_asset/file/25517086/Qualcomm_benchmarks_hero.jpg",
+            "publishedAt": "2024-07-05T13:00:00Z",
+            "content": "We tested every Snapdragon X chip against the Intel Core Ultra, AMD Ryzen 8000, and Apple M3.\r\nByJoanna Nelius, laptop reviewer. She has covered consumer technology, with an emphasis on PC gaming, si… [+17342 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "The Wall Street Journal",
+            "title": "Jobs Report Today: 206,000 Jobs Added in June; Unemployment Edged Up to 4.1% -- Live Updates - The Wall Street Journal",
+            "description": null,
+            "url": "https://www.wsj.com/livecoverage/stock-market-today-jobs-report-live-07-05-2024",
+            "urlToImage": null,
+            "publishedAt": "2024-07-05T12:51:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Henry Bushnell",
+            "title": "Emiliano Martínez saves Argentina after Lionel Messi misses penalty kick in Copa América shootout - Yahoo Sports",
+            "description": "Lionel Messi missed his penalty, but goalkeeper Emi \"Dibu\" Martínez saved two penalties to send Argentina to the semifinals and eliminate Ecuador.",
+            "url": "https://sports.yahoo.com/emiliano-martinez-saves-argentina-after-lionel-messi-misses-penalty-kick-in-copa-america-shootout-031414063.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/TKK6HAkhOzn5cdDHIEOxYQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-07/0710a8b0-3a7d-11ef-b5ed-414aff972830",
+            "publishedAt": "2024-07-05T12:50:37Z",
+            "content": "Lionel Messi missed his penalty, but goalkeeper Emiliano \"Dibu\" Martínez saved two penalties to send Argentina to the Copa América semifinals and eliminate Ecuador. (Photo by Logan Riely/Getty Images… [+4149 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "9to5Google",
+            "title": "Galaxy Z Flip 6 ditching AMOLED for LCD on cover display - 9to5Google",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiRGh0dHBzOi8vOXRvNWdvb2dsZS5jb20vMjAyNC8wNy8wNS9nYWxheHktei1mbGlwLTYtY292ZXItZGlzcGxheS1sY2Qv0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2024-07-05T12:45:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Steven Petrow",
+            "title": "Kate Middleton, other celebrity diagnoses may stoke public’s cancer fears - The Washington Post",
+            "description": "Cancer fear is strong even as cancer deaths decline and therapies have gotten better.",
+            "url": "https://www.washingtonpost.com/wellness/2024/07/05/cancer-phobia-mortality-treatment-fears/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SVFNJOT2TWT6E3I7C7PDDDR2DM_size-normalized.jpg&w=1440",
+            "publishedAt": "2024-07-05T12:32:53Z",
+            "content": "Lets start with the good news: Cancer deaths are down, almost one-third since 1991, according to the American Cancer Society. And now the bad: Cancer fear is not. In fact, experts say cancerphobia se… [+6404 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Weather Channel"
+            },
+            "author": "The Weather Channel",
+            "title": "Hurricane Beryl Makes Landfall In Mexico - Videos from The Weather Channel - The Weather Channel",
+            "description": "Hurricane Beryl made landfall this morning on the Yucatán Peninsula of Mexico. We are still watching where it will go once it reaches the Gulf of Mexico. - Videos from The Weather Channel | weather.com",
+            "url": "https://weather.com/storms/hurricane/video/hurricane-beryl-makes-landfall-in-mexico",
+            "urlToImage": "https://v.w-x.co/1720181347424_8aBerylcut_fdf5141c-85f4-4952-ab01-e0f37d5cc75c.jpg",
+            "publishedAt": "2024-07-05T12:09:18Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": null,
+            "title": "The Future of AR Beyond the Vision Pro Is Already Brewing - CNET",
+            "description": "Plenty of signs point to where the future is heading for AR glasses, smaller headsets, and new interfaces. But all these technologies will need our own phones and computers to work better with them.",
+            "url": "https://www.cnet.com/tech/computing/the-future-of-ar-beyond-vision-pro-is-already-brewing/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/dfaba6fc7dcc3028b2a0bc44867a0563dde0d5ef/hub/2024/07/03/ef6b1cf4-088b-458c-9f96-67fea8d71448/meta-ray-bans-avegant-glasses.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-07-05T12:00:00Z",
+            "content": "I recently flew out to Long Beach, California, for the AWE augmented and virtual reality conference, but I left my mixed reality VR devices — the Apple Vision Pro and Meta Quest 3 — back in New Jerse… [+12222 chars]"
+        }
+    ]
+}
