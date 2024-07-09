@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary py-4">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Navbar
+            {props.title}
           </a>
           <button
             className="navbar-toggler"
