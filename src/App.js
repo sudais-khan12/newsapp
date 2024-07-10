@@ -5,10 +5,10 @@ import News from "./components/News";
 export default class App extends Component {
   render() {
     return (
-      <>  
+      <>
         <>
           <Navbar title="Insight Daily" />
-          <News />
+          <News pageSize="12" />
         </>
       </>
     );
