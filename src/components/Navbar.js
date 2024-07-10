@@ -3,9 +3,16 @@ import React from "react";
 export default function Navbar(props) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary py-4">
+      <nav
+        className="navbar navbar-expand-lg bg-body-primary py-4"
+        style={{ backgroundColor: "#D4E09B" }}
+      >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a
+            className="navbar-brand"
+            href="/"
+            style={{ color: "#A44A3F", fontWeight: "bold", fontSize: "1.5rem" }}
+          >
             {props.title}
           </a>
           <button
@@ -22,7 +29,16 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  style={{
+                    color: "#A44A3F",
+                    fontWeight: "bold",
+                    fontSize: "1.2rem",
+                  }}
+                >
                   Home
                 </a>
               </li>

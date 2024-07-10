@@ -7,7 +7,13 @@ export class NewsItem extends Component {
       <>
         <div
           className="card mb-5"
-          style={{ width: "20rem", cursor: "pointer" }}
+          style={{
+            width: "20rem",
+            cursor: "pointer",
+            backgroundColor: "#D4E09B",
+            border: "none",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+          }}
         >
           <img
             src={imageUrl}
@@ -23,6 +29,7 @@ export class NewsItem extends Component {
               target="_blank"
               rel="noreferrer"
               className="btn btn-sm btn-primary"
+              style={{ backgroundColor: "#A44A3F", border: "none" }}
             >
               Read More
             </a>
