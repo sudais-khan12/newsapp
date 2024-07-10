@@ -17,7 +17,7 @@ export class NewsItem extends Component {
         >
           <img
             src={imageUrl}
-            className="card-img-top"
+            className="card-img-top h-50 object-fit-cover"
             alt="..."
             draggable="false"
           />

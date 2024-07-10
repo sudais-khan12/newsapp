@@ -8,16 +8,40 @@ export class News extends Component {
     this.state = {
       articles: this.articles,
       loading: false,
+      page: 1,
     };
   }
-
   async componentDidMount() {
     let url =
-      "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d2165a7919334ea7b87ecfdba2eb3b32";
+      "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=1&pagesize=12";
     let promise = await fetch(url);
     let data = await promise.json();
-    this.setState({ articles: data.articles });
+    this.setState({
+      articles: data.articles,
+      totalArticles: data.totalResults,
+    });
   }
+
+  previousClick = async () => {
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=${
+      this.state.page - 1
+    }&pagesize=12`;
+    let promise = await fetch(url);
+    let data = await promise.json();
+    this.setState({ articles: data.articles, page: this.state.page - 1 });
+  };
+
+  nextClick = async () => {
+    if (this.state.page + 1 > Math.ceil(this.state.totalArticles / 12)) {
+    } else {
+      let url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=${
+        this.state.page + 1
+      }&pagesize=12`;
+      let promise = await fetch(url);
+      let data = await promise.json();
+      this.setState({ articles: data.articles, page: this.state.page + 1 });
+    }
+  };
 
   render() {
     return (
@@ -45,6 +69,25 @@ export class News extends Component {
                 </div>
               );
             })}
+          </div>
+          <div className="container d-flex justify-content-between my-4 w-25">
+            <button
+              disabled={this.state.page <= 1}
+              onClick={this.previousClick}
+              rel="noreferrer"
+              className="btn btn-primary"
+              style={{ backgroundColor: "#F19C79", border: "none" }}
+            >
+              &larr; Previous
+            </button>
+            <button
+              onClick={this.nextClick}
+              rel="noreferrer"
+              className="btn btn-primary"
+              style={{ backgroundColor: "#F19C79", border: "none" }}
+            >
+              Next &rarr;
+            </button>
           </div>
         </div>
       </>
