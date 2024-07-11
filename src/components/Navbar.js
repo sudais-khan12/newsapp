@@ -11,7 +11,7 @@ export default function Navbar(props) {
         <div className="container-fluid">
           <Link
             className="navbar-brand"
-            to="home"
+            to="/"
             style={{ fontWeight: "bold", fontSize: "1.5rem" }}
           >
             {props.title}
@@ -33,7 +33,7 @@ export default function Navbar(props) {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="home"
+                  to="/"
                   style={{
                     fontWeight: "bold",
                     fontSize: "1.2rem",

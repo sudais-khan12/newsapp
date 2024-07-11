@@ -22,13 +22,11 @@ html {
 
 .grid-item {
   text-align: center;
-  box-shadow: 0 0 4.375rem -1.25rem; /* 70px -20px */
   width: 27.5rem; /* 440px */
   height: 28.75rem; /* 460px */
   overflow: hidden;
   transition: all 0.5s;
   position: relative;
-  background-color: #dfdad5;
   border-radius: 0.625rem; /* 10px */
 }
 
@@ -84,10 +82,6 @@ button {
   transition: all 0.5s;
 }
 
-button:hover {
-  transform: scale(1);
-}
-
 button::after {
   content: "";
   position: absolute;
@@ -95,7 +89,7 @@ button::after {
   height: 100%;
   bottom: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #f88839;
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 0.25s;
