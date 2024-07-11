@@ -11,9 +11,27 @@ export class Home extends Component {
         </div>
 
         <div className="grid-container" id="drinks-grid">
+          <figure className="grid-item" data-caffeinated="false">
+            <img
+              src="https://images.unsplash.com/photo-1597212720428-ec423c8612ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5ld3NwYXBlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt="a cup of hot cocoa with marshmallows on top. "
+              title="Photo by Elena Leya for Unsplash. "
+            />
+            <figcaption>Top Headlines</figcaption>
+          </figure>
+
+          <figure className="grid-item" data-caffeinated="false">
+            <img
+              src="https://images.unsplash.com/photo-1498644035638-2c3357894b10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG5ld3NwYXBlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt="a cup of hot cocoa with marshmallows on top. "
+              title="Photo by Elena Leya for Unsplash. "
+            />
+            <figcaption>Everything</figcaption>
+          </figure>
+
           <figure className="grid-item" data-caffeinated="true">
             <img
-              src="https://images.unsplash.com/flagged/photo-1552938207-64eb8d53d8ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjkxMTJ8&ixlib=rb-4.0.3&q=80&w=400"
+              src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3BhcGVyfGVufDB8fDB8fHww"
               alt="Overhead view of a cup of coffee. "
               title="Photo by Jack Carter for Unsplash. "
             />
@@ -22,7 +40,7 @@ export class Home extends Component {
 
           <figure className="grid-item" data-caffeinated="false">
             <img
-              src="https://images.unsplash.com/photo-1611162458324-aae1eb4129a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjkxNzR8&ixlib=rb-4.0.3&q=80&w=400"
+              src="https://images.unsplash.com/photo-1717295248494-937c3a5655b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGVudGVydGFpbm1lbnR8ZW58MHx8MHx8fDA%3D"
               alt="A cup of coffee in dramatic lighting. "
               title="Photo by Jocelyn Morales for Unsplash. "
             />
@@ -31,7 +49,7 @@ export class Home extends Component {
 
           <figure className="grid-item" data-caffeinated="true">
             <img
-              src="https://images.unsplash.com/photo-1542128423-054d636febca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjgyMTl8&ixlib=rb-4.0.3&q=80&w=400"
+              src="https://plus.unsplash.com/premium_photo-1691223714882-57a432c4edaf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2VuZXJhbCUyMG5ld3N8ZW58MHx8MHx8fDA%3D"
               alt="An overhead view of a cup of espresso. "
               title="Photo by Marc Babin for Unsplash"
             />
@@ -40,7 +58,7 @@ export class Home extends Component {
 
           <figure className="grid-item" data-caffeinated="false">
             <img
-              src="https://images.unsplash.com/photo-1602223876962-6b2b349dc239?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjg1MzJ8&ixlib=rb-4.0.3&q=85"
+              src="https://plus.unsplash.com/premium_photo-1668487826666-baa00865bc13?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWVkaWNpbmVzfGVufDB8fDB8fHww"
               alt="Herbal tea in a clear teacup."
               title="Photo by engin akyurt for Unsplash"
             />
@@ -48,7 +66,7 @@ export class Home extends Component {
           </figure>
           <figure className="grid-item" data-caffeinated="true">
             <img
-              src="https://images.unsplash.com/photo-1593443320739-77f74939d0da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjg3NDh8&ixlib=rb-4.0.3&q=80&w=400"
+              src="https://images.unsplash.com/photo-1526930382372-67bf22c0fce2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNjaWVuY2V8ZW58MHx8MHx8fDA%3D"
               alt="A latte in a white cup with a flourish of foam on top. "
               title="Photo by tabitha turner for Unsplash"
             />
@@ -57,7 +75,7 @@ export class Home extends Component {
 
           <figure className="grid-item" data-caffeinated="false">
             <img
-              src="https://images.unsplash.com/photo-1637572815755-c4b80092dce1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjkyNjB8&ixlib=rb-4.0.3&q=80&w=400"
+              src="https://media.istockphoto.com/id/1293105095/photo/soccer-field-with-illumination-green-grass-and-cloudy-sky-background-for-design-or-advertising.webp?b=1&s=170667a&w=0&k=20&c=utGs9gBO8yyq7huMRHL-ko6OADXdfYdi_suBoh1pNWU="
               alt="a cup of hot cocoa with marshmallows on top. "
               title="Photo by Elena Leya for Unsplash. "
             />
@@ -66,7 +84,7 @@ export class Home extends Component {
 
           <figure className="grid-item" data-caffeinated="true">
             <img
-              src="https://images.unsplash.com/photo-1474255710329-379550af928d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNjg5MzF8&ixlib=rb-4.0.3&q=80&w=400"
+              src="https://plus.unsplash.com/premium_photo-1683120974913-1ef17fdec2a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D"
               alt="Top view of a cappuccino served in a white cup. "
               title="Photo by Bryan Burgos for Unsplash"
             />
