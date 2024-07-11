@@ -8,7 +8,6 @@ export class NewsItem extends Component {
         <div
           className="card mb-5"
           style={{
-            width: "20rem",
             cursor: "pointer",
             backgroundColor: "#D4E09B",
             border: "none",

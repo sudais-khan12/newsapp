@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   return (
@@ -8,13 +9,13 @@ export default function Navbar(props) {
         style={{ backgroundColor: "#D4E09B" }}
       >
         <div className="container-fluid">
-          <a
+          <Link
             className="navbar-brand"
-            href="/"
+            to="home"
             style={{ fontWeight: "bold", fontSize: "1.5rem" }}
           >
             {props.title}
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,17 +30,84 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
-                  href="/"
+                  to="home"
                   style={{
                     fontWeight: "bold",
                     fontSize: "1.2rem",
                   }}
                 >
                   Home
-                </a>
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle text-dark mt-1"
+                  to="/"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style={{
+                    fontWeight: "bold",
+                  }}
+                >
+                  Catogaries
+                </Link>
+                <ul
+                  className="dropdown-menu"
+                  style={{ backgroundColor: "#D4E09B" }}
+                >
+                  <li>
+                    <Link className="dropdown-item" to="business">
+                      Business
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="entertainment">
+                      Entertainment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="general">
+                      General
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="health">
+                      Health
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="science">
+                      Science
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="sports">
+                      Sports
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="technology">
+                      Technology
+                    </Link>
+                  </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="/">
+                      Everything
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" to="/">
+                      Headlines
+                    </Link>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>

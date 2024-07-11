@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 export class Home extends Component {
@@ -17,7 +18,7 @@ export class Home extends Component {
               alt="a cup of hot cocoa with marshmallows on top. "
               title="Photo by Elena Leya for Unsplash. "
             />
-            <figcaption>Top Headlines</figcaption>
+            <figcaption>Headlines</figcaption>
           </figure>
 
           <figure className="grid-item" data-caffeinated="false">
