@@ -11,7 +11,7 @@ export default function Navbar(props) {
           <a
             className="navbar-brand"
             href="/"
-            style={{ color: "#A44A3F", fontWeight: "bold", fontSize: "1.5rem" }}
+            style={{ fontWeight: "bold", fontSize: "1.5rem" }}
           >
             {props.title}
           </a>
@@ -34,7 +34,6 @@ export default function Navbar(props) {
                   aria-current="page"
                   href="/"
                   style={{
-                    color: "#A44A3F",
                     fontWeight: "bold",
                     fontSize: "1.2rem",
                   }}
