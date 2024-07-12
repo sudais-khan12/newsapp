@@ -6,6 +6,7 @@ import Everything from "./components/Everything";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default class App extends Component {
+  pageSize = 12;
   render() {
     return (
       <>
@@ -26,7 +27,7 @@ export default class App extends Component {
               path="/everything"
               element={
                 <div className="container mb-4">
-                  <Everything pageSize="12" query="international" />
+                  <Everything pageSize={this.pageSize} query="international" />
                 </div>
               }
             />
@@ -36,7 +37,7 @@ export default class App extends Component {
               element={
                 <News
                   key="sports"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="sports"
                   heading="Sports News"
@@ -49,7 +50,7 @@ export default class App extends Component {
               element={
                 <News
                   key="business"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="business"
                   heading="Business News"
@@ -62,7 +63,7 @@ export default class App extends Component {
               element={
                 <News
                   key="entertainment"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="entertainment"
                   heading="Entertainment News"
@@ -75,7 +76,7 @@ export default class App extends Component {
               element={
                 <News
                   key="entertainment"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="general"
                   heading="Headlines"
@@ -88,7 +89,7 @@ export default class App extends Component {
               element={
                 <News
                   key="general"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="general"
                   heading="General News"
@@ -101,7 +102,7 @@ export default class App extends Component {
               element={
                 <News
                   key="health"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="health"
                   heading="Health News"
@@ -114,7 +115,7 @@ export default class App extends Component {
               element={
                 <News
                   key="science"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="science"
                   heading="Science News"
@@ -127,7 +128,7 @@ export default class App extends Component {
               element={
                 <News
                   key="technology"
-                  pageSize="12"
+                  pageSize={this.pageSize}
                   country="us"
                   category="technology"
                   heading="Technology News"
