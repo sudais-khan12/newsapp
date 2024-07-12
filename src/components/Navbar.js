@@ -98,18 +98,33 @@ export default function Navbar(props) {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown-item" to="everything">
                       Everything
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/">
+                    <Link className="dropdown-item" to="headlines">
                       Headlines
                     </Link>
                   </li>
                 </ul>
               </li>
             </ul>
+            <div className="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <Link
+                to="/everything"
+                class="btn btn-outline-success"
+                type="submit"
+              >
+                Search
+              </Link>
+            </div>
           </div>
         </div>
       </nav>

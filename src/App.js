@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import Home from "./components/Home";
+import Everything from "./components/Everything";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default class App extends Component {
@@ -17,6 +18,15 @@ export default class App extends Component {
               element={
                 <div className="container mb-4">
                   <Home />
+                </div>
+              }
+            />
+            <Route
+              exact
+              path="/everything"
+              element={
+                <div className="container mb-4">
+                  <Everything pageSize="12" query="international" />
                 </div>
               }
             />

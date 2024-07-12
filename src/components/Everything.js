@@ -3,18 +3,15 @@ import NewsItem from "./NewsItem";
 import Spiner from "./Spiner";
 import PropTypes from "prop-types";
 
-export class News extends Component {
+export class Everything extends Component {
   static defaultProps = {
-    country: "us",
+    query: "international",
     pageSize: 12,
-    category: "general",
-    heading: "General News",
   };
 
   static propTypes = {
-    country: PropTypes.string,
+    query: PropTypes.string,
     pageSize: PropTypes.number,
-    category: PropTypes.string,
   };
 
   articles = [];
@@ -27,7 +24,7 @@ export class News extends Component {
     };
   }
   async componentDidMount() {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=1&pagesize=${this.props.pageSize}`;
+    let url = `https://newsapi.org/v2/everything?q=${this.props.query}&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=1&pagesize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let promise = await fetch(url);
     let data = await promise.json();
@@ -39,10 +36,8 @@ export class News extends Component {
   }
 
   previousClick = async () => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${
-      this.props.country
-    }&category=${
-      this.props.category
+    let url = `https://newsapi.org/v2/https://newsapi.org/v2/everything?q=${
+      this.props.query
     }&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=${
       this.state.page - 1
     }&pagesize=${this.props.pageSize}`;
@@ -57,10 +52,8 @@ export class News extends Component {
   };
 
   nextClick = async () => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${
-      this.props.country
-    }&category=${
-      this.props.category
+    let url = `https://newsapi.org/v2/everything?q=${
+      this.props.query
     }&apiKey=d2165a7919334ea7b87ecfdba2eb3b32&page=${
       this.state.page + 1
     }&pagesize=${this.props.pageSize}`;
@@ -80,7 +73,7 @@ export class News extends Component {
         {this.state.loading && <Spiner />}
         {!this.state.loading && (
           <div className="container my-3">
-            <h1 className="text-center my-4">{this.props.heading}</h1>
+            <h1 className="text-center my-4">{this.props.query}</h1>
             <div className=" row">
               {this.state.articles.map((element) => {
                 return (
@@ -133,4 +126,4 @@ export class News extends Component {
   }
 }
 
-export default News;
+export default Everything;
