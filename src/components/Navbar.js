@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
+  const [query, setQuery] = useState("");
+  let handleOnChange = (event) => {
+    setQuery(event.target.value);
+  };
+
+  let handleSearch = () => {
+    props.search(query, 1);
+  };
+
   return (
     <>
       <nav
@@ -116,11 +125,14 @@ export default function Navbar(props) {
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                onChange={handleOnChange}
               />
               <Link
+                onClick={handleSearch}
                 to="/everything"
                 class="btn btn-outline-success"
                 type="submit"
+                query={query}
               >
                 Search
               </Link>

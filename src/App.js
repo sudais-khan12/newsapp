@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
 import Home from "./components/Home";
@@ -6,10 +6,16 @@ import Everything from "./components/Everything";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+  const [query, setQuery] = useState("international");
+  const [page, setPage] = useState(1);
+  const setsearch = (query, page) => {
+    setQuery(query);
+    setPage(page);
+  };
   return (
     <>
       <Router>
-        <Navbar title="Insight Daily" />
+        <Navbar search={setsearch} title="Insight Daily" />
         <Routes>
           <Route
             exact
@@ -25,7 +31,7 @@ function App() {
             path="/everything"
             element={
               <div className="container mb-4">
-                <Everything pageSize="12" query="international" />
+                <Everything pageSize="12" query={query} page={page} />
               </div>
             }
           />

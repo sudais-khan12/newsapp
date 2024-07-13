@@ -28,9 +28,10 @@ const NewsItem = ({
         </span>
         <img
           src={imageUrl}
-          className="card-img-top h-50 object-fit-cover"
+          className="card-img-top"
           alt="..."
           draggable="false"
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />
         <div className="card-body">
           <h5 className="card-title">{title}...</h5>
