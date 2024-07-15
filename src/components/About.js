@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class About extends Component {
   render() {
-    return <> About Us </>;
+    return <> This app is about News </>;
   }
 }
 
