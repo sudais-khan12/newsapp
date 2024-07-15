@@ -11,7 +11,7 @@ const News = ({ country, pageSize, category, heading }) => {
 
   const fetchNews = async (pageNumber) => {
     let url = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=7723f24c2cc2482ca1c966d11a3015ea&page=${pageNumber}&pagesize=${pageSize}`;
-    setLoading(true);
+    setLoading(true); 
     let promise = await fetch(url);
     let data = await promise.json();
     setArticles(data.articles);
