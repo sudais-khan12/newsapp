@@ -14,7 +14,7 @@ export default function Navbar(props) {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg bg-body-primary py-4"
+        className="navbar fixed-top navbar-expand-lg bg-body-primary py-4"
         style={{ backgroundColor: "#D4E09B" }}
       >
         <div className="container-fluid">

@@ -35,7 +35,7 @@ const News = ({ country, pageSize, category, heading }) => {
     <>
       {loading && <Spiner />}
       {!loading && (
-        <div className="container my-3">
+        <div className="container my-3" style={{ marginTop: "7rem"}}>
           <h1 className="text-center my-4">{heading}</h1>
           <div className="row">
             {articles.map((element) => {
