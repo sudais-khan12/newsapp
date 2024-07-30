@@ -21,6 +21,7 @@ const News = ({ country, pageSize, category, heading }) => {
 
   useEffect(() => {
     fetchNews(page);
+    // eslint-disable-next-line
   }, [page, country, category, pageSize]);
 
   const previousClick = () => {
