@@ -21,6 +21,7 @@ const Everything = ({ pageSize, query }) => {
 
   useEffect(() => {
     fetchNews(page);
+// eslint-disable-next-line
   }, [query, page, pageSize]);
 
   const previousClick = () => {
